@@ -64,6 +64,7 @@ parser.add_argument('--speaker-device', default=2, type=int)
 parser.add_argument('--tts-delay-enabled', dest='tts_delay_enabled', action='store_true')
 parser.add_argument('--tts-delay-seconds', dest='tts_delay_seconds', type=int, default=5)
 parser.add_argument('--woot-room', help="Room to enable woot events", default='')
+# TODO: recover options to enable swarm master operations
 
 commandArgs = parser.parse_args()
 print commandArgs
